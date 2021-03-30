@@ -1,0 +1,22 @@
+sysjobs full history code : 
+EXEC dbo.sp_help_jobhistory_full  
+   @job_id='3811B7B1-A32C-44BE-9590-F9CA124055EB',
+   @job_name = N'Leovegas Daily Rewards',
+   @step_id=NULL,
+   @sql_message_id=NULL,
+   @sql_severity=NULL,
+   @start_run_date=NULL,
+   @end_run_date=NULL,
+   @start_run_time=NULL,
+   @end_run_time=NULL,
+   @minimum_run_duration=NULL,
+   @run_status=NULL,
+   @minimum_retries=NULL,
+   @oldest_first=NULL,
+   @server=NULL,
+   @mode=NULL,
+   @order_by=NULL,
+   @distributed_job_history=NULL 
+   
+ 
+GO
